@@ -1,0 +1,149 @@
+.label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 48px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.entry {
+  display: flex;
+  gap: 28px;
+}
+
+.marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  width: 12px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7C3AED, #2563EB);
+  flex-shrink: 0;
+  margin-top: 6px;
+  box-shadow: 0 0 10px rgba(124, 58, 237, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+.entry:hover .dot {
+  box-shadow: 0 0 20px rgba(124, 58, 237, 0.6), 0 0 30px rgba(37, 99, 235, 0.3);
+}
+
+.line {
+  width: 1px;
+  flex: 1;
+  background: linear-gradient(to bottom, #7C3AED, #2563EB, transparent);
+  opacity: 0.3;
+}
+
+.content {
+  padding-bottom: 40px;
+  transition: transform 0.3s ease;
+}
+
+.entry:hover .content {
+  transform: translateX(4px);
+}
+
+.entry:hover .company {
+  font-size: 1.5rem;
+  transition: font-size 0.3s ease;
+}
+
+.entry:hover .roleTitle {
+  font-size: 1.1rem;
+  transition: font-size 0.3s ease;
+}
+
+.entry:hover .impacts li {
+  font-size: 1rem;
+  transition: font-size 0.3s ease;
+}
+
+.entry:last-child .content {
+  padding-bottom: 0;
+}
+
+.company {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 16px;
+}
+
+.role {
+  margin-bottom: 20px;
+}
+
+.role:last-child {
+  margin-bottom: 0;
+}
+
+.roleHeader {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.roleTitle {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.duration {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.impacts {
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.impacts li {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  padding-left: 16px;
+  position: relative;
+  margin-bottom: 4px;
+}
+
+.impacts li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+}
+
+@media (max-width: 768px) {
+  .heading { font-size: 1.6rem; }
+  .entry { gap: 20px; }
+  .content { padding-bottom: 32px; }
+}
