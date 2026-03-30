@@ -151,6 +151,33 @@
   flex-shrink: 0;
 }
 
+.footer {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 10;
+  text-align: right;
+}
+
+.builtBy {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin: 0 0 6px 0;
+  letter-spacing: 0.02em;
+}
+
+.contactEmail {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contactEmail:hover {
+  color: #60A5FA;
+}
+
 @media (max-width: 960px) {
   .hero {
     flex-direction: column;

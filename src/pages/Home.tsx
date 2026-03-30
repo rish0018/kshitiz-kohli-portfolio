@@ -87,6 +87,12 @@ export default function Home() {
           <ProfileCard />
         </div>
       </div>
+      <div className={styles.footer}>
+        <p className={styles.builtBy}></p>
+        <a href="https://rishit-portfolio18.netlify.app/" className={styles.contactEmail}>
+          By Rishit Kohli
+        </a>
+      </div>
     </>
   );
 }

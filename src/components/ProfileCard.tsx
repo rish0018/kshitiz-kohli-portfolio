@@ -13,7 +13,7 @@ export default function ProfileCard() {
         </div>
         <div className={styles.glow} />
       </div>
-      <span className={styles.name}>Kshitiz Kohli</span>
+      <span className={styles.name}><b>Kshitiz Kohli</b></span>
     </div>
   );
 }

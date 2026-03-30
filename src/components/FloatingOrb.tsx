@@ -18,7 +18,7 @@ function Orb() {
   });
 
   return (
-    <Sphere ref={meshRef} args={[0.9, 64, 64]}>
+    <Sphere ref={meshRef} args={[0.6, 104, 104]}>
       <MeshDistortMaterial
         color="#7C3AED"
         roughness={0.2}
