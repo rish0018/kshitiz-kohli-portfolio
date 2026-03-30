@@ -74,6 +74,39 @@ const experiences = [
       ],
     }],
   },
+  {
+  company: 'Hewlett-Packard',
+  roles: [{
+    title: 'WFM Specialist',
+    duration: '2005 – 2006',
+    impacts: [
+      'Performed workforce planning and operational forecasting',
+      'Supported customer service operations with real-time analysis',
+    ],
+  }],
+},
+{
+  company: 'CLI3L eServices Limited',
+  roles: [{
+    title: 'Resource Planner – Command Center',
+    duration: '2004 – 2005',
+    impacts: [
+      'Managed resource allocation within command center operations',
+      'Improved service delivery through real-time monitoring',
+    ],
+  }],
+},
+{
+  company: 'Khoday Contact Center',
+  roles: [{
+    title: 'Workflow Leader',
+    duration: '2003 – 2004',
+    impacts: [
+      'Coordinated workforce planning for contact center teams',
+      'Enhanced operational efficiency through workflow optimization',
+    ],
+  }],
+  },
 ];
 
 export default function Experience() {

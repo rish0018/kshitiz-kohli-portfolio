@@ -8,9 +8,8 @@ import styles from './Home.module.css';
 const Galaxy = lazy(() => import('../components/Galaxy'));
 
 const metrics = [
-  { value: '17+', label: 'Years Experience' },
+  { value: '20+', label: 'Years Experience' },
   { value: '$4M+', label: 'Cost Savings' },
-  { value: '3+', label: 'Continents Managed' },
 ];
 
 export default function Home() {
@@ -50,10 +49,11 @@ export default function Home() {
       <div ref={ref} className={styles.hero}>
         <div className={styles.left}>
           <h1 className={styles.name}>Kshitiz Kohli</h1>
-          <h2 className={styles.role}>Workforce Strategy Leader</h2>
+          <h2 className={styles.role}>Global Workforce Strategy & Operations Leader</h2>
           <p className={styles.tagline}>
-            Leading global operations, building high-performance teams, and
-            delivering measurable impact across APAC markets.
+            Driving large-scale workforce transformation, 
+            building high-performance global teams, and delivering measurable operational 
+            impact across regions.
           </p>
           <div className={styles.metrics}>
             {metrics.map((m, i) => (
@@ -68,7 +68,7 @@ export default function Home() {
               Connect <span className={styles.ctaArrow}>→</span>
             </Link>
             <a
-              href="https://www.linkedin.com/in/kshitizkohli/"
+              href="https://www.linkedin.com/in/kshitiz-kohli-1842b515/"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.linkedin}
@@ -78,8 +78,8 @@ export default function Home() {
               </svg>
               LinkedIn
             </a>
-            <a href="mailto:kshitiz.kohli@gmail.com" className={styles.emailLink}>
-              kshitiz.kohli@gmail.com
+            <a href="mailto:rkohli1806@gmail.com " className={styles.emailLink}>
+              rkohli1806@gmail.com 
             </a>
           </div>
         </div>

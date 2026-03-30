@@ -5,12 +5,36 @@ import g from '../styles/global.module.css';
 
 
 const expertiseAreas = [
-  { title: 'Workforce Management', description: 'End-to-end WFM strategy including scheduling, real-time adherence, and long-range planning across global operations.', num: '01' },
-  { title: 'Forecasting & Capacity Planning', description: 'Building predictive models and frameworks that align staffing with demand across diverse markets and channels.', num: '02' },
-  { title: 'Strategy & Operating Models', description: 'Designing scalable operating models that drive efficiency, reduce costs, and improve service delivery outcomes.', num: '03' },
-  { title: 'Global Command Centers', description: 'Establishing 24/7 command centers with real-time monitoring, incident management, and cross-regional coordination.', num: '04' },
-  { title: 'Change Management', description: 'Leading organizational transformation initiatives with structured communication, stakeholder alignment, and measurable adoption.', num: '05' },
-  { title: 'Talent Leadership', description: 'Building, mentoring, and scaling high-performance teams across geographies with a focus on culture and development.', num: '06' },
+  { 
+    title: 'Workforce Management', 
+    description: 'Drove end-to-end workforce strategy across global operations, including forecasting, scheduling, and real-time performance governance.', 
+    num: '01' 
+  },
+  { 
+    title: 'Forecasting & Capacity Planning', 
+    description: 'Designed predictive models aligning staffing with demand while optimizing cost efficiency and service excellence.', 
+    num: '02' 
+  },
+  { 
+    title: 'Strategy & Operating Models', 
+    description: 'Built scalable operating frameworks enhancing productivity, streamlining processes, and supporting business growth.', 
+    num: '03' 
+  },
+  { 
+    title: 'Global Command Centers', 
+    description: 'Established 24/7 command centers with real-time monitoring and cross-regional operational alignment.', 
+    num: '04' 
+  },
+  { 
+    title: 'Change & Transformation', 
+    description: 'Led large-scale transformation initiatives with structured governance and measurable adoption outcomes.', 
+    num: '05' 
+  },
+  { 
+    title: 'Leadership & Talent Development', 
+    description: 'Built and mentored high-performing teams across geographies, fostering leadership pipelines.', 
+    num: '06' 
+  },
 ];
 
 export default function Expertise() {
